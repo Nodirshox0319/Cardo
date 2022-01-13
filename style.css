@@ -69,9 +69,9 @@ p{
     border-radius: 20px 5px 20px 5px;
 }
 
-@media all and (max-width:320px){
+@media all and (max-width:350px){
     header{
-        width: 320px;
+        width: 350px;
         height: 800px;
     }
     .start h2{
@@ -80,7 +80,7 @@ p{
     }
     .kok{
         margin-top: 400px;
-        width: 320px;
+        width: 350px;
         margin-left: -400px;
     }
     .kok button{
