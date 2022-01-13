@@ -1,147 +1,127 @@
 *{
-    padding: 0;
     margin: 0;
-}
-.ikki {
-    width: 100%;
-    height: 90.1ch;
-    display: flex;
-}
-.first {
-    width: 60%;
-    height: 100%;
-    background-color: whitesmoke;
-}
-.second {
-    width: 40%;
-    height: 100%;
-    background-color: blue;
-}
-header {
-    display: flex;
-    width: 75%;
-    margin-left: 10%;
-    margin-top: 5%;
-}
-.part1img {
-    margin-left: 10%;
-    width: 7%;
-    margin-top: 5%;
-}
-.all {
-    font-weight: normal;
-    width: 75%;
-    font-size: 8ch;
-    margin-left: 10%;
-    margin-top: 3%;
-}
-.strel {
-    width:10%;
-    margin-left: 10%;
-    margin-top: 5%;
-}
-.psim {
-    font-size: 2ch;
-    width: 40%;
-    text-align: justify;
-    margin-left: 10%;
-    margin-top: 3%;
-}
-.buttons {
-    margin-left: 10%;
-    margin-top: 3%;
-}
-.tripple {
-    width: 60%;
-    height: 10%;
-    margin-left: 10%;
-    margin-top: 3%;
-    display: flex;
-    text-align: center;
-}
-.bir {
-    width: 30%;
-}
-.iki {
-    width: 40%;
-}
-.uch {
-    width: 30%;
-}
-.cardd {
-    display: none;
+    padding: 0;
 }
 
-header h1{
-    color: blue;
-    font-family: 'Courier New', Courier, monospace;
+
+
+header{
+    width: 1075px;
+    height: 505px;
+    display: flex;
+    background-color: beige;
+
+}
+.elay{
+    width: 400px;
+    display: flex;
+    margin-top: -35px;
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 20px;
 }
 
-header ul{
+ul{
     display: flex;
-    margin-top: 2%;
+    margin-left: 70px;
 }
 
 ul li{
     list-style: none;
-    margin-left: 8%;
+    margin-left: 50px;
 }
 
 ul li a{
-    text-decoration: none;
-    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.kok{
+    background: url(thumb-1920-433884.jpg);
+    width: 500px;
+    margin-left: 177px;
+}
+button{
+    margin-left: 50px;
+    margin-top: 20px;
+}
 
+h1{
+    margin-left: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
+img{
+    margin-left: 30px;
+}
+p{
+    width: 400px;
+    margin-left: 10px;
+}
+.kok img{
+    margin-left: 100px;
+    margin-top: 100px;
+    border: 2px solid black;
+    border-radius: 20px 5px 20px 5px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 500px) {
-    header {
-      background-color: lightblue;
+@media all and (max-width:500px){
+    header{
+        width: 500px;
+        height: 800px;
     }
-    .ikki {
-        display: block;
+    .start h2{
+        font-size: 15px;
+        color: red;
     }
-    .first {
-        width: 100%;
+    .kok{
+        margin-top: 400px;
+        width: 500px;
+        margin-left: -400px;
     }
-    .second{
-        width: 100%;
+    .kok button{
+        padding: 0;
+        margin: 0;
+        margin-left: 50px;
+        margin-top: 20px;
+        font-size: 10px;
     }
-    .part1img {
-        width: 15%;
+    .kok img{
+        width: 200px;
+        margin-left: -200px;
     }
-    .strel {
-        width: 20%;
+    .elay ul{
+    margin-top: 3px;
     }
-    .psim {
-        width: 80%;
-        font-size: 23px;
+    .elay li{
+        margin-left: 8px;
     }
-    .tripple {
-        width: 80%;
+    .elay a{
         font-size: 12px;
+        color: blue;
+        font-weight: bold;
     }
-    .second {
-        display: none;
+    .start h1{
+        font-size: 30px;
+        font-weight: bold;
     }
-    .cardd {
-        display: block;
-        width: 80%;
-        margin-left: 10%;
-        margin-top: 10%;
+    .start img{
+        width: 50px;
     }
+    .start p{
+        font-size: 10px;
+        width: 250px;
+    }
+    .start button{
+        margin: 0;
+        padding: 0;
+        margin-left: 20px;
+        font-size: 10px;
+    }
+
+}
+    
