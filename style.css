@@ -57,7 +57,7 @@ header {
     width: 60%;
     height: 10%;
     margin-left: 10%;
-    margin-top: 3%;
+    margin-top: 8%;
     display: flex;
     text-align: center;
 }
@@ -157,6 +157,7 @@ ul li a{
     .tripple {
         width: 80%;
         font-size: 12px;
+        margin-top: 15%;
     }
     .second {
         display: none;
