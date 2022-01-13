@@ -15,8 +15,10 @@
 .second {
     width: 40%;
     height: 100%;
-    background-color: blue;
+   background:url(Background.png) ;
 }
+
+
 header {
     display: flex;
     width: 75%;
@@ -77,6 +79,7 @@ header h1{
     font-family: 'Courier New', Courier, monospace;
 }
 
+
 header ul{
     display: flex;
     margin-top: 2%;
@@ -91,36 +94,35 @@ ul li a{
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
 }
+.second img{
 
-.second button{
-    border: none;
-    border-radius: 10px;
+    width: 60%;
+    margin-left: 25%;
+    margin-top: 12%;
+}
+.jino{
+    margin-top: -100%;
+}
+
+.buttons button{
+    border-radius: 30%;
+    padding: 1% 5%;
     background-color: black;
     color: white;
-    font-size: 15px;
+}
+.buttons a{
+    text-decoration: none;
+    color: black;
+}
+
+.open button{
+    border-radius: 10%;
+    padding: 1% 2%;
+    background-color: black;
+    color: white;
+    margin-top: 10%;
     margin-left: 15%;
-    margin-top: 5%;
 }
-
-.second img{
-    width: 50%;
-    border-radius: 10px 5px 10px 5px;
-    margin-left: 25%;
-    margin-top: 30%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -132,9 +134,15 @@ ul li a{
     }
     .first {
         width: 100%;
+        background-image: url(Background.png);
+        height: 150%;
+        margin-top: -5%;
     }
     .second{
         width: 100%;
+    }
+    header ul li a{
+        display: none;
     }
     .part1img {
         width: 15%;
